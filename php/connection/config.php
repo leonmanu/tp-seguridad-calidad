@@ -20,6 +20,9 @@ if(!defined('DB_CHARSET'))
 {
     define('DB_CHARSET','utf-8');
 }
+if(!defined('DB_RETURN'){
+	define('DB_RETURN','array');
+}
 /*if(!defined('PATH'))
 {
     $path = $_SERVER['DOCUMENT_ROOT'];
