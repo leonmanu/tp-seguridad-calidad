@@ -14,7 +14,7 @@ if(!defined('DB_PASS'))
 }
 if(!defined('DB_NAME'))
 {
-    define('DB_NAME','');
+    define('DB_NAME','thewall');
 }
 if(!defined('DB_CHARSET'))
 {
