@@ -20,7 +20,7 @@ if(!defined('DB_CHARSET'))
 {
     define('DB_CHARSET','utf-8');
 }
-if(!defined('DB_RETURN'){
+if(!defined('DB_RETURN')){
 	define('DB_RETURN','array');
 }
 /*if(!defined('PATH'))
@@ -29,3 +29,5 @@ if(!defined('DB_RETURN'){
     $path .= "/facultad/web2/tp/pruebas";
     define('PATH',$path);
 }*/
+
+?>
